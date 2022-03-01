@@ -1,370 +1,938 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-		<title>Cleto Reyes</title>
 
-		<script src="https://kit.fontawesome.com/5dc4ef2116.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<!-- NAVBAR  -->
-		<section class="hero">
-			<section class="navbar">
-					<img class="logo" src="images/logo.png" alt="logo">
-					<nav>
-						<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">ABOUT US</a></li>
-							<li><a href="#">CATALOG 2022</a></li>
-							<li><a href="#">CUSTOMIZATION</a></li>
-							<li><a href="#">HOT SALE</a></li>
-							<li><a href="#">BLOG</a></li>
-							<li><a href="#">CONTACT</a></li>
-							<li><a href="#">LOGIN</a></li>
-							<li><a href="#"><svg class="nav-icons" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><circle cx="10" cy="28" r="2" fill="currentColor"/><circle cx="24" cy="28" r="2" fill="currentColor"/><path d="M28 7H5.82L5 2.8A1 1 0 0 0 4 2H0v2h3.18L7 23.2a1 1 0 0 0 1 .8h18v-2H8.82L8 18h18a1 1 0 0 0 1-.78l2-9A1 1 0 0 0 28 7zm-2.8 9H7.62l-1.4-7h20.53z" fill="currentColor"/></svg></a></li></li>
-							<li><button class="navButton" type="button" name="button">SIGN UP</button></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
-			<!-- SOCIAL LINKS -->
-				<section class="socialLinks">
-					<ul class="socialLinksList">
-						<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-						<li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
-					</ul>
-				</section>
-			<!-- SHOWCASE-ALI  -->
-			<section class="showcase">
-				<div class="container grid">
-					<div class="showcase-text">
-						<h1>THE GREATEST OF ALL TIME</h1>
-						<h1>WEAR CLETO REYES</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-						<button type="button" name="button">SHOP NOW</button>
-					</div>
-					<div class="card">
-						<!-- image slider start -->
-						<div class="slider">
-							<div class="slides">
-								<!-- radio buttons start -->
-								<input type="radio" name="radio-btn" id="radio1">
-								<input type="radio" name="radio-btn" id="radio2">
-								<input type="radio" name="radio-btn" id="radio3">
-								<input type="radio" name="radio-btn" id="radio4">
-								<!-- radio buttons end -->
-								<!-- slide images start -->
-								<div class="slide first">
-									<img src="images/promos-1.jpg" alt="">
-								</div>
-								<div class="slide">
-									<img src="images/promos-2.jpg" alt="">
-								</div>
-								<div class="slide">
-									<img src="images/promos-3.jpg" alt="">
-								</div>
-								<div class="slide">
-									<img src="images/promos-4.jpg" alt="">
-								</div>
-							</div>
-							<!-- manual navigation start -->
-							<div class="navigation-manual">
-								<label for="radio1" class="manual-btn"></label>
-								<label for="radio2" class="manual-btn"></label>
-								<label for="radio3" class="manual-btn"></label>
-								<label for="radio4" class="manual-btn"></label>
-							</div>
-							<!-- manual navigation end -->
-						</div>
-						<!-- image slider end -->
-					</div>
-				</div>
-			</section>
-		</section>
-		<!-- GREEN FLAG -->
-		<section class="greenFlag">
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
 
-			<!-- GREEN FLAG TITLE -->
-			<section class="greenFlagTitle">
-				<h1>GLOVES</h1>
-			</section>
-			<!-- GLOVES -->
-			<section class="gloves">
-					<div class="cardGreen">
-						<div class="imgBx">
-							<img src="images/pro-gloves.png" alt="">
-							<h2>PROFESSIONAL</h2>
-						</div>
-						<div class="contentGreen">
-							<div class="weight">
-								<h3>WEIGHT :</h3>
-									<span>8oz</span>
-									<span>10oz</span>
-							</div>
-							<div class="color">
-								<h3>COLOR :</h3>
-									<span></span>
-									<span></span>
-									<span></span>
-							</div>
-							<a href="#">BUY NOW</a>
-						</div>
-					</div>
-					<div class="cardGreen">
-						<div class="imgBx">
-							<img src="images/training-gloves.png" alt="">
-							<h2>TRAINING</h2>
-						</div>
-						<div class="contentGreen">
-							<div class="weight">
-								<h3>WEIGHT :</h3>
-									<span>12oz</span>
-									<span>14oz</span>
-									<span>16oz</span>
-							</div>
-							<div class="color">
-								<h3>COLOR :</h3>
-									<span></span>
-									<span></span>
-									<span></span>
-							</div>
-							<a href="#">BUY NOW</a>
-						</div>
-					</div>
-					<div class="cardGreen">
-						<div class="imgBx">
-							<img src="images/mma-gloves.png" alt="">
-							<h2>MMA</h2>
-						</div>
-						<div class="contentGreen">
-							<div class="weight">
-								<h3>SIZE :</h3>
-									<span>S</span>
-									<span>M</span>
-									<span>L</span>
-							</div>
-							<div class="color">
-								<h3>COLOR :</h3>
-									<span></span>
-									<span></span>
-									<span></span>
-							</div>
-							<a href="#">BUY NOW</a>
-						</div>
-					</div>
-			</section>
-		</section>
-<!-- SHOWCASE-TYSON -->
-	<section class="showcase-2">
-		<div class="container grid">
-			<div class="card2">
-				<!-- image slider start -->
-				<div class="slider">
-					<div class="slides">
-						<!-- radio buttons start -->
-						<input type="radio" name="radio-btn" id="radio5">
-						<input type="radio" name="radio-btn" id="radio6">
-						<input type="radio" name="radio-btn" id="radio7">
-						<input type="radio" name="radio-btn" id="radio8">
-						<!-- radio buttons end -->
-						<!-- slide images start -->
-						<div class="slide first">
-							<img src="images/champfight1.jpg" alt="">
-						</div>
-						<div class="slide">
-							<img src="images/champfight2.jpg" alt="">
-						</div>
-						<div class="slide">
-							<img src="images/champfight3.jpg" alt="">
-						</div>
-						<div class="slide">
-							<img src="images/champfight4.jpg" alt="">
-						</div>
-						<!-- slide images end -->
-					</div>
-					<!-- manual navigation start -->
-					<div class="navigation-manual">
-						<label for="radio5" class="manual-btn2"></label>
-						<label for="radio6" class="manual-btn2"></label>
-						<label for="radio7" class="manual-btn2"></label>
-						<label for="radio8" class="manual-btn2"></label>
-					</div>
-					<!-- manual navigation end -->
-				</div>
-				<!-- image slider end -->
-			</div>
-			<div class="showcase2-text">
-				<h1>USED IN WORLD CHAMPIONSHIP</h1>
-				<h1>FIGHTS SINCE 1945</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				<button type="button" name="button">SHOP NOW</button>
-			</div>
-		</div>
-	</section>
-<!-- WHITE FLAG  -->
-<section class="whiteFlag">
-	<section class="whiteFlagTitle">
-		<h1>EQUIPMENT</h1>
-	</section>
-	<section class="equipment">
-		<div class="box">
-			<h2 class="name">HEAVY BAG</h2>
-			<a href="#" class="buy">BUY NOW</a>
-			<div class="circle"></div>
-			<img src="images/heavybag.png" class="product" alt="">
-		</div>
-		<div class="box">
-			<h2 class="name">HEAD GEAR</h2>
-			<a href="#" class="buyMiddle">BUY NOW</a>
-			<div class="circle"></div>
-			<img src="images/headgear.png" class="product" alt="">
-		</div>
-		<div class="box">
-			<h2 class="name">SPEED BAG</h2>
-			<a href="#" class="buy">BUY NOW</a>
-			<div class="circle"></div>
-			<img src="images/speedbag.png" class="product" alt="">
-		</div>
-	</section>
-</section>
-<!-- SHOWCASE-PACQUIAO -->
-<section class="showcase-3">
-	<div class="container grid">
-		<div class="showcase3-text">
-			<h1>THE HIGHEST QUALITY</h1>
-			<h1>MEXICAN CRAFTSMANSHIP</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-			<button type="button" name="button">READ MORE</button>
-		</div>
-		<div class="card3">
-			<!-- image slider start -->
-			<div class="slider">
-				<div class="slides">
-					<!-- radio buttons start -->
-					<input type="radio" name="radio-btn" id="radio9">
-					<input type="radio" name="radio-btn" id="radio10">
-					<input type="radio" name="radio-btn" id="radio11">
-					<input type="radio" name="radio-btn" id="radio12">
-					<!-- radio buttons end -->
-					<!-- slide images start -->
-					<div class="slide first">
-						<img src="images/craft1.jpg" alt="">
-					</div>
-					<div class="slide">
-						<img src="images/craft2.jpg" alt="">
-					</div>
-					<div class="slide">
-						<img src="images/craft3.jpg" alt="">
-					</div>
-					<div class="slide">
-						<img src="images/craft4.jpg" alt="">
-					</div>
-					<!-- slide images end -->
-				</div>
-				<!-- manual navigation start -->
-				<div class="navigation-manual">
-					<label for="radio9" class="manual-btn"></label>
-					<label for="radio10" class="manual-btn"></label>
-					<label for="radio11" class="manual-btn"></label>
-					<label for="radio12" class="manual-btn"></label>
-				</div>
-				<!-- manual navigation end -->
-			</div>
-			<!-- image slider end -->
-		</div>
-	</div>
-</section>
-</section>
-<!-- RED FLAG -->
-<section class="redFlag">
-	<section class="redFlagTitle">
-		<h1>HISTORICAL EVENTS</h1>
-	</section>
-	<section class="redFlagEvents">
-		<section class="redColumn1">
-			<div class="redBox">
-				<ul>
-					<li id="thirtyEightNext">1938</li>
-					<li id="fortyFiveNext">1945</li>
-					<li id="sixtyFiveNext">1965</li>
-					<li id="seventyFiveNext">1975</li>
-					<li id="ninetyOneNext">1991</li>
-					<li id="ninetyFourNext">1994</li>
-					<li id="zeroEightNext">2008</li>
-					<li id="nineteenNext">2019</li>
-				</ul>
-			</div>
-		</section>
-		<section class="redColumn2">
-			<img id="thirtyEightImg" class="hidden" src="images/1938.jpg" alt="">
-			<p id="thirtyEight" class="hidden">In 1938, Cleto Reyes participated in an amateur fight, his performance was so outstanding that the public ended up throwing coins into the ring floor; however, the pounding was so hard that he was convinced not to fight again. He chose, instead, to mend the gloves he had used during the fight and this was the beginning of his career in glove manufacture.</p>
-			<img id="fortyFiveImg" class="hidden" src="images/condessa-arena.jpg" alt="">
-			<p id="fortyFive" class="hidden">In 1945 the Cleto Reyes gloves were used in a world championship fight for the first time on “La Condesa Arena”, in the fight between the second Mexican Champion, Juan Zurita Vs Ike Williams. This was a very relevant year in Don Cleto’s life since that was the year he decided to become independent, always counting on his wife and children’s support.</p>
-			<img id="sixtyFiveImg" class="hidden" src="images/1965.jpg" alt="">
-			<p id="sixtyFive" class="hidden">In 1965, he had his first commercial representative in Los Angeles, California; and began distributing his products in the most important cities of the United States and some other countries.</p>
-			<img id="seventyFiveImg" class="hidden" src="images/1975.jpg" alt="">
-			<p id="seventyFive" class="hidden">In 1975, his son, Alberto Reyes decided to register CLETO REYES as a trademark, and founded Industria Reyes S.A. de C.V.</p>
-			<img id="ninetyOneImg" class="hidden" src="images/1991.jpg" alt="">
-			<p id="ninetyOne" class="hidden">In 1991, Recognition of banco Bital (HSBC) and Mexico´s Export Bank to the diversification of the International Market. Presentation of the INTEREXPORTA/card, provided by Bancomext and other leading Institutions, by Mexico´s President.</p>
-			<img id="ninetyFourImg" class="hidden" src="images/1994.jpg" alt="">
-			<p id="ninetyFour" class="hidden">Mexico´s National Exports Award.</p>
-			<img id="zeroEightImg" class="hidden" src="images/2008.jpg" alt="">
-			<p id="zeroEight" class="hidden">Mr. Alberto Reyes who is the founder and CEO of this company was inducted into the World Boxing Hall of Fame Expanded Category in November 15, 2008 during their 29th Annual Banquet of Champions Induction Ceremony in California, USA.</p>
-			<img id="nineteenImg" class="hidden" src="images/2019.jpg" alt="">
-			<p id="nineteen" class="hidden">Don Alberto Reyes Pérez, the great promoter of the Cleto Reyes Gloves brand, was immortalized in the National Boxing Hall of Fame of California, when he was awarded the "Alberto Reyes Humanitarian Award" for the first time, for his humanitarian work throughout his life, by supporting boxers, managers and people linked to the boxing world.</p>
-		</section>
-	</section>
-</section>
-<!-- SHOWCASE-FOOTER  -->
-<footer class="showcase-4">
-	<section class="footer-column1">
-		<h4>Los Guantes de los Campeones</h4>
-		<img src="images/logo.png" alt="logo">
-		<ul class="socialLinksList">
-			<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-			<li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
-		</ul>
-	</section>
-	<section class="footer-column2">
-		<h4>LEGAL</h4>
-		<ul>
-			<li><a href="#">Integral Privacy Policy<span style="padding-left:300px;">></a></li>
-			<li><a href="#">Terms and conditions<span style="padding-left:304px;">></a></li>
-			<li><a href="#">Sales general conditions<span style="padding-left:284px;">></a></li>
-			<li><a href="#">Cookies policy<span style="padding-left:360px;">></a></li>
-		</ul>
-		<h4>CONTACT</h4>
-		<h5><a href="#">Send us an email<span style="padding-left:340px;">></a><h5>
-	</section>
-	<section class="footer-column3">
-		<h4>NEWSLETTER</h4>
-		<p>Subscribe to our newsletter and receive our news:</p>
-		<input type="text" name="" value="" placeholder="Email">
-		<button type="button" name="button">Subscribe</button>
-	</section>
-</footer>
-		<script src="js/main.js"></script>
-		<script src="vanilla-tilt.min.js"></script>
-		<script>
-			VanillaTilt.init(document.querySelectorAll(".box"), {
-				max: 25,
-				speed: 400
-			});
-		</script>
-	</body>
-</html>
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+font-family: 'Barlow Condensed', sans-serif;
+color: white;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 100%;
+}
+:root {
+	--primary-color: #161C2A;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* -----------------UTILITIES-------------  */
+.container {
+	max-width: 2000px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+.card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px 5px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 10px;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	top: 100px;
+	z-index: 1;
+}
+button {
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: #DF262C;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 50px;
+	width: 180px;
+	font-size: 20px;
+}
+button:hover {
+	transform: scale(0.98);
+}
+/* -------------SHOWCASE ALI--------------------  */
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	background-image: url(../images/ali-boxing_01.jpg);
+  background-size: cover;
+	background-position: left;
+	height: 800px;
+}
+.showcase-text {
+	padding-top: 100px;
+}
+/* -------------NAVBAR-------------------  */
+.navbar {
+	color: white;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 125px;
+}
+.navbar ul {
+	display: flex;
+}
+.navbar a {
+	color: white;
+	padding: 0 12px;
+	margin: 0 5px;
+	font-size: 20px;
+}
+.navbar a:hover {
+	color: white;
+	border-bottom: 5px solid red;
+}
+.logo {
+	width: 12%;
+	padding-top: 100px;
+}
+.navButton {
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: #DF262C;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 100px;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+button:hover {
+	transform: scale(0.98);
+}
+/* -----------------socialLinks----------------  */
+.socialLinks {
+width: 100%;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding-right: 114px;
+}
+.socialLinksList {
+	display: flex;
+	align-items: center;
+}
+.socialLinksList li {
+	margin: 10px;
+}
+.socialLinksList li a {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border: 1px solid rgba(255,255,255,0.4);
+	border-radius: 5px;
+	background: rgba(255,255,255,0.1);
+	backdrop-filter: blur(4px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.socialLinksList li a:hover {
+	background: white;
+	color: red;
+}
+/* -------------SHOWCASE ALI------------- */
+.showcase {
+	height: 770px;
+	color: white;
+	position: relative;
+}
+ h1 {
+	font-size: 78px;
+	font-weight: 500;
+	text-shadow: 3px 3px 5px black;
+}
+.showcase p {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px 0;
+	padding-right: 250px;
+	text-shadow: 3px 3px 5px black;
+	line-height: 25px;
+}
+.showcase .grid {
+	overflow: visible;
+	gap: 30px;
+}
+.showcase::before,
+.showcase::after {
+	content: '';
+	position: absolute;
+	height: 100px;
+	bottom: -40px;
+	right: 0;
+	left: 0;
+	background-image: url(../images/mexican-flag-green.jpg);
+	transform: skewY(-2deg);
+	-webkit-transform: skewY(-2deg);
+	-moz-transform: skewY(-2deg);
+	-ms-transform: skewY(-2deg);
+	border-top: 5px solid gray;
+}
+.slider {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.slides {
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+.slides input {
+	display: none;
+}
+.slide {
+	width: 24%;
+	transition: 2s;
+}
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+/* css for manual slide navigation */
+.navigation-manual {
+	positon: absolute;
+	width: 100%;
+	margin: -30px 0 0 40px;
+	display: flex;
+	justify-content: center;
+}
+.manual-btn {
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.manual-btn:not(last-child){
+	margin-right: 20px;
+}
+.manual-btn:hover {
+	background: black;
+}
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+#radio2:checked ~ .first {
+	margin-left: -28%;
+}
+#radio3:checked ~ .first {
+	margin-left: -50%;
+}
+#radio4:checked ~ .first {
+	margin-left: -75%;
+}
+
+/* ------------------GREEN FLAG------------------------  */
+.greenFlag {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/mexican-flag-green.jpg);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+/* -----------------GREEN FLAG TITLE--------------  */
+.greenFlagTitle {
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* ------------------GLOVES------------------------ */
+.gloves {
+width: 100%;
+height: 660px;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.cardGreen {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	margin: 20px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+.imgBx {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	transition: 0.5s ease-in-out;
+}
+.cardGreen:hover .imgBx {
+	transform: translateY(-100px);
+}
+.imgBx img {
+	max-width: 100%;
+	margin: 0 0 20px;
+	transition: 0.5s ease-in-out;
+}
+.cardGreen:hover .imgBx img {
+	transform: translate(-20px,-40px) scale(1.5);
+}
+.cardGreen .imgBx h2 {
+	color: white;
+	font-size: 36px;
+	font-weight: 600;
+	text-shadow: 2px 2px 2px black;
+}
+.contentGreen {
+	position: absolute;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+.cardGreen:hover .contentGreen {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(-1px);
+}
+.weight, .color{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+}
+.weight h3, .color h3 {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.weight span {
+	width: 32px;
+	height: 26px;
+	text-align: center;
+	line-height: 24px;
+	display: inline-block;
+	color: black;
+	background: white;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0 5px;
+	font-weight: 500;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.weight span:hover {
+	background: red;
+	color: white;
+}
+.color span {
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+	margin: 0 5px;
+	border: 2px solid white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.color span:nth-child(2) {
+	background: red;
+}
+.color span:nth-child(3) {
+	background: yellow;
+}
+.color span:nth-child(4) {
+	background: black;
+}
+.contentGreen a {
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	padding: 12px 30px;
+	background: white;
+	border-radius: 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: black;
+	text-decoration: none;
+}
+.contentGreen a:hover {
+	transform: scale(0.98);
+	background: red;
+	color: white;
+}
+/* -------------SHOWCASE-TYSON------------------------------ */
+.showcase-2 {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/tyson-boxing.jpg);
+  background-size: cover;
+	border-top: 5px solid gray;
+	color: white;
+	position: relative;
+}
+.showcase2-text {
+	padding: 300px 0 0 40px;
+}
+.showcase-2 p {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px 0;
+	padding-right: 200px;
+	text-shadow: 3px 3px 5px black;
+	line-height: 25px;
+}
+.showcase-2 .grid {
+	overflow: visible;
+	gap: 30px;
+}
+.card2 {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px 5px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 10px;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	top: 200px;
+	z-index: 1;
+}
+.showcase-2::before,
+.showcase-2::after {
+	content: '';
+	position: absolute;
+	height: 100px;
+	bottom: -40px;
+	right: 0;
+	left: 0;
+	background-image: url(../images/mexican-flag-white-top.jpg);
+	background-position: center;
+	transform: skewY(2deg);
+	-webkit-transform: skewY(2deg);
+	-moz-transform: skewY(2deg);
+	-ms-transform: skewY(2deg);
+	border-top: 5px solid gray;
+}
+.manual-btn2 {
+	border: 2px solid white;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.manual-btn2:not(last-child){
+	margin-right: 20px;
+}
+.manual-btn2:hover {
+	background: white;
+}
+#radio5:checked ~ .first {
+	margin-left: 0;
+}
+#radio6:checked ~ .first {
+	margin-left: -25%;
+}
+#radio7:checked ~ .first {
+	margin-left: -48%;
+}
+#radio8:checked ~ .first {
+	margin-left: -73%;
+}
+
+/* ------------------WHITE FLAG------------------------  */
+.whiteFlag {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/mexican-flag-white.jpg);
+	background-position: center;
+	border: 1px solid lightgray;
+}
+.whiteFlagTitle {
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.equipment {
+	position: relative;
+	width: 100%;
+	height: 660px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	transform-style: preserve-3d;
+}
+.box {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	margin: 40px;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	transform-style: preserve-3d;
+}
+.box:before {
+	content: 'CLETO';
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	font-size: 6em;
+	font-weight: 700;
+	color: black;
+	font-style: italic;
+	opacity: 0;
+}
+.box:hover::before, .box:hover::after {
+	opacity: 0.04;
+}
+.box:after {
+	content: 'REYES';
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	font-size: 6em;
+	font-weight: 700;
+	color: black;
+	font-style: italic;
+	opacity: 0;
+	transition: 0.5s;
+}
+.name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	font-weight: 600;
+	text-shadow: 2px 2px 2px black;
+	width: 100%;
+	transform-style: preserve-3d;
+	transform: translate3d(0,0,75px);
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 10;
+}
+.box:hover .name {
+	top: 40px;
+	opacity: 1;
+}
+.buy {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,0,75px);
+	color: white;
+	font-weight: 600;
+	background: #333;
+	padding: 10px 25px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 10;
+}
+.buyMiddle {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,0,75px);
+	color: black;
+	font-weight: 600;
+	background: white;
+	padding: 10px 25px;
+	border-radius: 30px;
+	text-decoration: none;
+	transition: 0.5s;
+	opacity: 0;
+	z-index: 10;
+}
+.box:hover .buy {
+	bottom: 30px;
+	opacity: 1;
+}
+.box:hover .buyMiddle {
+	bottom: 30px;
+	opacity: 1;
+}
+.product {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 300px;
+	transition: 0.5s;
+	z-index: 11;
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transform: translate3d(-50%,-50%,0px);
+}
+.box:hover .product {
+	transform: translate3d(-50%,-50%,150px);
+}
+.box:nth-child(1) .circle, .box:nth-child(1) .buy {
+	background: #265B3F;
+}
+.box:nth-child(2) .circle, .box:nth-child(2) .buyMiddle {
+	background: white;
+}
+.box:nth-child(3) .circle, .box:nth-child(3) .buy {
+	background: #A10029;
+}
+
+/* ----------------SHOWCASE-PACQUIAO--------------------- */
+.showcase-3 {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/pac_03.jpg);
+  background-size: cover;
+	background-position: bottom;
+	color: white;
+	position: relative;
+	border-top: 5px solid gray;
+}
+.showcase3-text {
+	padding: 300px 0 0 0;
+}
+.showcase-3 p {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px 0;
+	padding-right: 200px;
+	text-shadow: 3px 3px 5px black;
+	line-height: 25px;
+}
+.showcase-3 .grid {
+	overflow: visible;
+	gap: 30px;
+}
+.card3 {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px 5px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 10px;
+	height: 550px;
+	width: 100%;
+	position: relative;
+	top: 220px;
+	z-index: 1;
+}
+.showcase-3::before,
+.showcase-3::after {
+	content: '';
+	position: absolute;
+	height: 100px;
+	bottom: -40px;
+	right: 0;
+	left: -12px;
+	background-image: url(../images/mexican-flag-red-top.jpg);
+	transform: skewY(-2deg);
+	-webkit-transform: skewY(-2deg);
+	-moz-transform: skewY(-2deg);
+	-ms-transform: skewY(-2deg);
+	border-top: 5px solid gray;
+}
+#radio9:checked ~ .first {
+	margin-left: 0;
+}
+#radio10:checked ~ .first {
+	margin-left: -25%;
+}
+#radio11:checked ~ .first {
+	margin-left: -51%;
+}
+#radio12:checked ~ .first {
+	margin-left: -75%;
+}
+/* ------------------RED FLAG------------------------  */
+.redFlag {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/mexican-flag-red.jpg);
+	border: 1px solid lightgray;
+}
+.redFlagTitle {
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.redFlagEvents {
+	width: 100%;
+	height: 660px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.redColumn1 {
+	width: 25%;
+	height: 660px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: -50px;
+}
+.redColumn2 {
+	width: 75%;
+	height: 660px;
+	margin-top: -50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 75px 250px 0 250px;
+}
+.redColumn2 p {
+	font-size: 20px;
+	font-weight: 400;
+	text-shadow: 3px 3px 5px black;
+	line-height: 25px;
+	margin-top: 20px;
+}
+.redBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 200px;
+	height: 500px;
+	margin: 40px;
+	background: rgba(255, 255, 255, 0.02);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+.redFlagEvents li {
+	font-size: 36px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding: 10px 0;
+	cursor: pointer;
+}
+.redColumn2 img {
+	width: 50%;
+}
+.hidden{
+	display: none;
+}
+
+/* ---------------------FOOTER-------------------- */
+.showcase-4 {
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/chavez_05.jpg);
+  background-size: cover;
+	background-position: right;
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.showcase-4::before,
+.showcase-4::after {
+	content: '';
+	position: absolute;
+	height: 100px;
+	top: -40px;
+	right: 0;
+	left: 0;
+	background-image: url(../images/mexican-flag-red-bottom.jpg);
+	transform: skewY(2deg);
+	-webkit-transform: skewY(2deg);
+	-moz-transform: skewY(2deg);
+	-ms-transform: skewY(2deg);
+	border-bottom: 5px solid gray;
+}
+.footer-column1, .footer-column2, .footer-column3 {
+  width: 33.3333%;
+  height: 600px;
+}
+.footer-column1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+	font-size: 34px;
+	font-weight: 700;
+	color: #FF0000;
+	-webkit-text-stroke: 1px gray;
+	text-shadow: 2px 2px 2px black;
+}
+.footer-column1 img {
+	width: 50%;
+	margin: 20px 0;
+}
+.footer-column2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 120px;
+}
+.footer-column2 ul {
+	margin: 30px 0;
+}
+.footer-column2 li {
+	padding: 10px 0;
+	font-size: 22px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	border-bottom: 1px solid gray;
+}
+.footer-column2 a:hover {
+	color: red;
+}
+.footer-column2 h5 {
+	font-size: 22px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	border-bottom: 1px solid gray;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.footer-column3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 90px 0 0 200px;
+}
+.footer-column3 p {
+	font-size: 22px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	margin: 40px 0 10px 0;
+}
+.footer-column3 input {
+	height: 30px;
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
