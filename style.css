@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Cleto Reyes</title>
+
+		<script src="https://kit.fontawesome.com/5dc4ef2116.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- NAVBAR  -->
+		<section class="hero">
+			<section class="navbar">
+					<img class="logo" src="images/logo.png" alt="logo">
+					<nav>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li><a href="#">CATALOG 2022</a></li>
+							<li><a href="#">CUSTOMIZATION</a></li>
+							<li><a href="#">HOT SALE</a></li>
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#">CONTACT</a></li>
+							<li><a href="#">LOGIN</a></li>
+							<li><a href="#"><svg class="nav-icons" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><circle cx="10" cy="28" r="2" fill="currentColor"/><circle cx="24" cy="28" r="2" fill="currentColor"/><path d="M28 7H5.82L5 2.8A1 1 0 0 0 4 2H0v2h3.18L7 23.2a1 1 0 0 0 1 .8h18v-2H8.82L8 18h18a1 1 0 0 0 1-.78l2-9A1 1 0 0 0 28 7zm-2.8 9H7.62l-1.4-7h20.53z" fill="currentColor"/></svg></a></li></li>
+							<li><button class="navButton" type="button" name="button">SIGN UP</button></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<!-- SOCIAL LINKS -->
+				<section class="socialLinks">
+					<ul class="socialLinksList">
+						<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+						<li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+					</ul>
+				</section>
+			<!-- SHOWCASE-ALI  -->
+			<section class="showcase">
+				<div class="container grid">
+					<div class="showcase-text">
+						<h1>THE GREATEST OF ALL TIME</h1>
+						<h1>WEAR CLETO REYES</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+						<button type="button" name="button">SHOP NOW</button>
+					</div>
+					<div class="card">
+						<!-- image slider start -->
+						<div class="slider">
+							<div class="slides">
+								<!-- radio buttons start -->
+								<input type="radio" name="radio-btn" id="radio1">
+								<input type="radio" name="radio-btn" id="radio2">
+								<input type="radio" name="radio-btn" id="radio3">
+								<input type="radio" name="radio-btn" id="radio4">
+								<!-- radio buttons end -->
+								<!-- slide images start -->
+								<div class="slide first">
+									<img src="images/promos-1.jpg" alt="">
+								</div>
+								<div class="slide">
+									<img src="images/promos-2.jpg" alt="">
+								</div>
+								<div class="slide">
+									<img src="images/promos-3.jpg" alt="">
+								</div>
+								<div class="slide">
+									<img src="images/promos-4.jpg" alt="">
+								</div>
+							</div>
+							<!-- manual navigation start -->
+							<div class="navigation-manual">
+								<label for="radio1" class="manual-btn"></label>
+								<label for="radio2" class="manual-btn"></label>
+								<label for="radio3" class="manual-btn"></label>
+								<label for="radio4" class="manual-btn"></label>
+							</div>
+							<!-- manual navigation end -->
+						</div>
+						<!-- image slider end -->
+					</div>
+				</div>
+			</section>
+		</section>
+		<!-- GREEN FLAG -->
+		<section class="greenFlag">
+
+			<!-- GREEN FLAG TITLE -->
+			<section class="greenFlagTitle">
+				<h1>GLOVES</h1>
+			</section>
+			<!-- GLOVES -->
+			<section class="gloves">
+					<div class="cardGreen">
+						<div class="imgBx">
+							<img src="images/pro-gloves.png" alt="">
+							<h2>PROFESSIONAL</h2>
+						</div>
+						<div class="contentGreen">
+							<div class="weight">
+								<h3>WEIGHT :</h3>
+									<span>8oz</span>
+									<span>10oz</span>
+							</div>
+							<div class="color">
+								<h3>COLOR :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+							</div>
+							<a href="#">BUY NOW</a>
+						</div>
+					</div>
+					<div class="cardGreen">
+						<div class="imgBx">
+							<img src="images/training-gloves.png" alt="">
+							<h2>TRAINING</h2>
+						</div>
+						<div class="contentGreen">
+							<div class="weight">
+								<h3>WEIGHT :</h3>
+									<span>12oz</span>
+									<span>14oz</span>
+									<span>16oz</span>
+							</div>
+							<div class="color">
+								<h3>COLOR :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+							</div>
+							<a href="#">BUY NOW</a>
+						</div>
+					</div>
+					<div class="cardGreen">
+						<div class="imgBx">
+							<img src="images/mma-gloves.png" alt="">
+							<h2>MMA</h2>
+						</div>
+						<div class="contentGreen">
+							<div class="weight">
+								<h3>SIZE :</h3>
+									<span>S</span>
+									<span>M</span>
+									<span>L</span>
+							</div>
+							<div class="color">
+								<h3>COLOR :</h3>
+									<span></span>
+									<span></span>
+									<span></span>
+							</div>
+							<a href="#">BUY NOW</a>
+						</div>
+					</div>
+			</section>
+		</section>
+<!-- SHOWCASE-TYSON -->
+	<section class="showcase-2">
+		<div class="container grid">
+			<div class="card2">
+				<!-- image slider start -->
+				<div class="slider">
+					<div class="slides">
+						<!-- radio buttons start -->
+						<input type="radio" name="radio-btn" id="radio5">
+						<input type="radio" name="radio-btn" id="radio6">
+						<input type="radio" name="radio-btn" id="radio7">
+						<input type="radio" name="radio-btn" id="radio8">
+						<!-- radio buttons end -->
+						<!-- slide images start -->
+						<div class="slide first">
+							<img src="images/champfight1.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="images/champfight2.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="images/champfight3.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="images/champfight4.jpg" alt="">
+						</div>
+						<!-- slide images end -->
+					</div>
+					<!-- manual navigation start -->
+					<div class="navigation-manual">
+						<label for="radio5" class="manual-btn2"></label>
+						<label for="radio6" class="manual-btn2"></label>
+						<label for="radio7" class="manual-btn2"></label>
+						<label for="radio8" class="manual-btn2"></label>
+					</div>
+					<!-- manual navigation end -->
+				</div>
+				<!-- image slider end -->
+			</div>
+			<div class="showcase2-text">
+				<h1>USED IN WORLD CHAMPIONSHIP</h1>
+				<h1>FIGHTS SINCE 1945</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+				<button type="button" name="button">SHOP NOW</button>
+			</div>
+		</div>
+	</section>
+<!-- WHITE FLAG  -->
+<section class="whiteFlag">
+	<section class="whiteFlagTitle">
+		<h1>EQUIPMENT</h1>
+	</section>
+	<section class="equipment">
+		<div class="box">
+			<h2 class="name">HEAVY BAG</h2>
+			<a href="#" class="buy">BUY NOW</a>
+			<div class="circle"></div>
+			<img src="images/heavybag.png" class="product" alt="">
+		</div>
+		<div class="box">
+			<h2 class="name">HEAD GEAR</h2>
+			<a href="#" class="buyMiddle">BUY NOW</a>
+			<div class="circle"></div>
+			<img src="images/headgear.png" class="product" alt="">
+		</div>
+		<div class="box">
+			<h2 class="name">SPEED BAG</h2>
+			<a href="#" class="buy">BUY NOW</a>
+			<div class="circle"></div>
+			<img src="images/speedbag.png" class="product" alt="">
+		</div>
+	</section>
+</section>
+<!-- SHOWCASE-PACQUIAO -->
+<section class="showcase-3">
+	<div class="container grid">
+		<div class="showcase3-text">
+			<h1>THE HIGHEST QUALITY</h1>
+			<h1>MEXICAN CRAFTSMANSHIP</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+			<button type="button" name="button">READ MORE</button>
+		</div>
+		<div class="card3">
+			<!-- image slider start -->
+			<div class="slider">
+				<div class="slides">
+					<!-- radio buttons start -->
+					<input type="radio" name="radio-btn" id="radio9">
+					<input type="radio" name="radio-btn" id="radio10">
+					<input type="radio" name="radio-btn" id="radio11">
+					<input type="radio" name="radio-btn" id="radio12">
+					<!-- radio buttons end -->
+					<!-- slide images start -->
+					<div class="slide first">
+						<img src="images/craft1.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="images/craft2.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="images/craft3.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="images/craft4.jpg" alt="">
+					</div>
+					<!-- slide images end -->
+				</div>
+				<!-- manual navigation start -->
+				<div class="navigation-manual">
+					<label for="radio9" class="manual-btn"></label>
+					<label for="radio10" class="manual-btn"></label>
+					<label for="radio11" class="manual-btn"></label>
+					<label for="radio12" class="manual-btn"></label>
+				</div>
+				<!-- manual navigation end -->
+			</div>
+			<!-- image slider end -->
+		</div>
+	</div>
+</section>
+</section>
+<!-- RED FLAG -->
+<section class="redFlag">
+	<section class="redFlagTitle">
+		<h1>HISTORICAL EVENTS</h1>
+	</section>
+	<section class="redFlagEvents">
+		<section class="redColumn1">
+			<div class="redBox">
+				<ul>
+					<li id="thirtyEightNext">1938</li>
+					<li id="fortyFiveNext">1945</li>
+					<li id="sixtyFiveNext">1965</li>
+					<li id="seventyFiveNext">1975</li>
+					<li id="ninetyOneNext">1991</li>
+					<li id="ninetyFourNext">1994</li>
+					<li id="zeroEightNext">2008</li>
+					<li id="nineteenNext">2019</li>
+				</ul>
+			</div>
+		</section>
+		<section class="redColumn2">
+			<img id="thirtyEightImg" class="hidden" src="images/1938.jpg" alt="">
+			<p id="thirtyEight" class="hidden">In 1938, Cleto Reyes participated in an amateur fight, his performance was so outstanding that the public ended up throwing coins into the ring floor; however, the pounding was so hard that he was convinced not to fight again. He chose, instead, to mend the gloves he had used during the fight and this was the beginning of his career in glove manufacture.</p>
+			<img id="fortyFiveImg" class="hidden" src="images/condessa-arena.jpg" alt="">
+			<p id="fortyFive" class="hidden">In 1945 the Cleto Reyes gloves were used in a world championship fight for the first time on “La Condesa Arena”, in the fight between the second Mexican Champion, Juan Zurita Vs Ike Williams. This was a very relevant year in Don Cleto’s life since that was the year he decided to become independent, always counting on his wife and children’s support.</p>
+			<img id="sixtyFiveImg" class="hidden" src="images/1965.jpg" alt="">
+			<p id="sixtyFive" class="hidden">In 1965, he had his first commercial representative in Los Angeles, California; and began distributing his products in the most important cities of the United States and some other countries.</p>
+			<img id="seventyFiveImg" class="hidden" src="images/1975.jpg" alt="">
+			<p id="seventyFive" class="hidden">In 1975, his son, Alberto Reyes decided to register CLETO REYES as a trademark, and founded Industria Reyes S.A. de C.V.</p>
+			<img id="ninetyOneImg" class="hidden" src="images/1991.jpg" alt="">
+			<p id="ninetyOne" class="hidden">In 1991, Recognition of banco Bital (HSBC) and Mexico´s Export Bank to the diversification of the International Market. Presentation of the INTEREXPORTA/card, provided by Bancomext and other leading Institutions, by Mexico´s President.</p>
+			<img id="ninetyFourImg" class="hidden" src="images/1994.jpg" alt="">
+			<p id="ninetyFour" class="hidden">Mexico´s National Exports Award.</p>
+			<img id="zeroEightImg" class="hidden" src="images/2008.jpg" alt="">
+			<p id="zeroEight" class="hidden">Mr. Alberto Reyes who is the founder and CEO of this company was inducted into the World Boxing Hall of Fame Expanded Category in November 15, 2008 during their 29th Annual Banquet of Champions Induction Ceremony in California, USA.</p>
+			<img id="nineteenImg" class="hidden" src="images/2019.jpg" alt="">
+			<p id="nineteen" class="hidden">Don Alberto Reyes Pérez, the great promoter of the Cleto Reyes Gloves brand, was immortalized in the National Boxing Hall of Fame of California, when he was awarded the "Alberto Reyes Humanitarian Award" for the first time, for his humanitarian work throughout his life, by supporting boxers, managers and people linked to the boxing world.</p>
+		</section>
+	</section>
+</section>
+<!-- SHOWCASE-FOOTER  -->
+<footer class="showcase-4">
+	<section class="footer-column1">
+		<h4>Los Guantes de los Campeones</h4>
+		<img src="images/logo.png" alt="logo">
+		<ul class="socialLinksList">
+			<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+			<li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+		</ul>
+	</section>
+	<section class="footer-column2">
+		<h4>LEGAL</h4>
+		<ul>
+			<li><a href="#">Integral Privacy Policy<span style="padding-left:300px;">></a></li>
+			<li><a href="#">Terms and conditions<span style="padding-left:304px;">></a></li>
+			<li><a href="#">Sales general conditions<span style="padding-left:284px;">></a></li>
+			<li><a href="#">Cookies policy<span style="padding-left:360px;">></a></li>
+		</ul>
+		<h4>CONTACT</h4>
+		<h5><a href="#">Send us an email<span style="padding-left:340px;">></a><h5>
+	</section>
+	<section class="footer-column3">
+		<h4>NEWSLETTER</h4>
+		<p>Subscribe to our newsletter and receive our news:</p>
+		<input type="text" name="" value="" placeholder="Email">
+		<button type="button" name="button">Subscribe</button>
+	</section>
+</footer>
+		<script src="js/main.js"></script>
+		<script src="vanilla-tilt.min.js"></script>
+		<script>
+			VanillaTilt.init(document.querySelectorAll(".box"), {
+				max: 25,
+				speed: 400
+			});
+		</script>
+	</body>
+</html>
