@@ -923,7 +923,7 @@ overflow: hidden;
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
-/* ------------------MEDIA QUERY-LAPTOP---------------------- */
+/* ------------------MEDIA QUERY-DESKTOP---------------------- */
 
 @media screen and (min-width: 1400px) and (max-width: 1650px) {
 
@@ -1004,5 +1004,78 @@ overflow: hidden;
 .footer-column3 p {
 	font-size: 18px;
 }
+
+}
+/* ------------------MEDIA QUERY-LAPTOP---------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+	/* -------------NAVBAR-------------------  */
+	.navbar {
+		padding: 0 30px;
+	}
+	.navbar ul {
+		display: flex;
+	}
+	.navbar a {
+		padding: 0 10px;
+		font-size: 20px;
+	}
+	.logo {
+		width: 15%;
+		padding-top: 75px;
+	}
+
+	/* -----------------socialLinks----------------  */
+	.socialLinks {
+	padding-right: 20px;
+	}
+
+	/* -------------SHOWCASE ALI--------------------  */
+
+	.hero {
+		height: 700px;
+	}
+	.showcase-text {
+		padding-top: 0;
+	}
+	.showcase {
+		height: 770px;
+		color: white;
+		position: relative;
+	}
+	 h1 {
+		font-size: 55px;
+	}
+	.showcase p {
+		font-size: 18px;
+		padding-right: 50px;
+		line-height: 20px;
+	}
+
+	.card {
+		height: 400px;
+	}
+	.slider {
+		height: 350px;
+	}
+	.slides {
+		height: 350px;
+	}
+	.container {
+		margin-top: -50px;
+	}
+
+	/* ------------------GLOVES------------------------ */
+	.gloves {
+		height: 600px;
+	}
+	.cardGreen {
+		width: 350px;
+		height: 438px;
+	}
+
+
+
 
 }
