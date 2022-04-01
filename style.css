@@ -141,20 +141,7 @@ button {
 button:hover {
 	transform: scale(0.98);
 }
-/* -------------SHOWCASE ALI--------------------  */
-.hero {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: relative;
-	background-image: url(../images/ali-boxing_01.jpg);
-  background-size: cover;
-	background-position: left;
-	height: 800px;
-}
-.showcase-text {
-	padding-top: 100px;
-}
+
 /* -------------NAVBAR-------------------  */
 .navbar {
 	color: white;
@@ -230,7 +217,21 @@ padding-right: 114px;
 	background: white;
 	color: red;
 }
-/* -------------SHOWCASE ALI------------- */
+
+/* -------------SHOWCASE ALI--------------------  */
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	background-image: url(../images/ali-boxing_01.jpg);
+  background-size: cover;
+	background-position: left;
+	height: 800px;
+}
+.showcase-text {
+	padding-top: 100px;
+}
 .showcase {
 	height: 770px;
 	color: white;
@@ -872,7 +873,7 @@ overflow: hidden;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 100px 0 0 100px;
+	padding: 100px 50px 0 200px;
 }
 .footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
 	font-size: 34px;
@@ -982,30 +983,17 @@ overflow: hidden;
 .footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
 	font-size: 30px;
 }
-.footer-column2 {
-	/* padding-left: 50px; */
-}
 .footer-column2 ul {
 	margin: 20px 0;
 }
-.footer-column2 li {
-	font-size: 18px;
-}
-.footer-column2 h5 {
-	font-size: 18px;
-}
 .footer-column1, .footer-column2, .footer-column3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	padding: 100px 50px;
+	padding: 100px 50px 0 100px;
 }
-.footer-column3 p {
+.footer-column2 li, .footer-column2 h5, .footer-column3 p {
 	font-size: 18px;
+}
 }
 
-}
 /* ------------------MEDIA QUERY-LAPTOP---------------------- */
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -1037,12 +1025,7 @@ overflow: hidden;
 		height: 700px;
 	}
 	.showcase-text {
-		padding-top: 0;
-	}
-	.showcase {
-		height: 770px;
-		color: white;
-		position: relative;
+		padding: 50px 20px 0 0;
 	}
 	 h1 {
 		font-size: 55px;
@@ -1074,7 +1057,70 @@ overflow: hidden;
 		width: 350px;
 		height: 438px;
 	}
+	/* -------------SHOWCASE-TYSON------------------------------ */
 
+	.showcase-2 {
+		height: 700px;
+	}
+	.showcase2-text {
+		padding: 300px 20px 0 20px;
+	}
+	.showcase-2 p {
+		font-size: 18px;
+		padding-right: 50px;
+		line-height: 20px;
+	}
+	.card2 {
+		height: 400px;
+	}
+
+	/* ------------------WHITE FLAG------------------------  */
+	.whiteFlag {
+		height: 800px;
+	}
+	.box {
+		width: 350px;
+		height: 438px;
+		margin: 20px;
+	}
+
+	/* ----------------SHOWCASE-PACQUIAO--------------------- */
+	.showcase-3 {
+		height: 700px;
+		background-position: center;
+	}
+	.showcase3-text {
+		padding: 300px 0 0 0;
+	}
+	.showcase-3 p {
+		font-size: 18px;
+		padding-right: 50px;
+		line-height: 20px;
+	}
+
+	.card3 {
+		height: 400px;
+	}
+
+	/* ------------------RED FLAG------------------------  */
+	.redColumn2 {
+		padding: 75px 100px 0 100px;
+	}
+
+/* ---------------------FOOTER-------------------- */
+	.footer-column1, .footer-column2, .footer-column3 {
+		padding: 100px 50px 0 100px;
+	}
+	.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+		font-size: 24px;
+	}
+
+	.footer-column2 ul {
+		margin: 15px 0;
+	}
+	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
+		font-size: 16px;
+	}
 
 
 
