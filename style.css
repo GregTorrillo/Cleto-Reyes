@@ -294,7 +294,7 @@ padding-right: 114px;
 .navigation-manual {
 	positon: absolute;
 	width: 100%;
-	margin: -30px 0 0 40px;
+	margin: -30px 0 0 0;
 	display: flex;
 	justify-content: center;
 }
@@ -1002,9 +1002,6 @@ overflow: hidden;
 	.navbar {
 		padding: 0 30px;
 	}
-	.navbar ul {
-		display: flex;
-	}
 	.navbar a {
 		padding: 0 10px;
 		font-size: 20px;
@@ -1035,7 +1032,6 @@ overflow: hidden;
 		padding-right: 50px;
 		line-height: 20px;
 	}
-
 	.card {
 		height: 400px;
 	}
@@ -1047,6 +1043,10 @@ overflow: hidden;
 	}
 	.container {
 		margin-top: -50px;
+	}
+	/* css for manual slide navigation */
+	.navigation-manual {
+		margin: -30px 0 0 0;
 	}
 
 	/* ------------------GLOVES------------------------ */
@@ -1121,6 +1121,80 @@ overflow: hidden;
 	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
 		font-size: 16px;
 	}
+}
+
+/* ------------------MEDIA QUERY-	LARGE TABLET LANDSCAPE---------------------- */
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+	/* -------------NAVBAR-------------------  */
+	.navbar {
+		padding: 0 20px;
+	}
+	.navbar a {
+		padding: 0 10px;
+		margin: 0;
+		font-size: 18px;
+	}
+	.navbar a:hover {
+		border-bottom: 4px solid red;
+	}
+	.logo {
+		width: 15%;
+		padding-top: 50px;
+	}
+	/* -----------------socialLinks----------------  */
+	.socialLinks {
+	padding-right: 15px;
+	}
+	.socialLinksList li {
+		margin: 5px;
+	}
+	.socialLinksList li a {
+		width: 30px;
+		height: 30px;
+	}
+	/* -------------SHOWCASE ALI--------------------  */
+	.hero {
+		height: 600px;
+	}
+	.showcase-text {
+		padding: 0 0 55px 0;
+	}
+	.showcase {
+		height: 500px;
+	}
+	h1 {
+		font-size: 46px;
+	}
+	.showcase p {
+		font-size: 18px;
+		line-height: 20px;
+		padding-right: 20px;
+	}
+	.card {
+		height: 350px;
+		top: 10px;
+	}
+	button {
+		height: 40px;
+		width: 150px;
+		font-size: 18px;
+	}
+
+	.slider {
+		height: 300px;
+	}
+	.slides {
+		height: 300px;
+	}
+	.slide {
+		width: 24%;
+		transition: 2s;
+	}
+	/* css for manual slide navigation */
+	.navigation-manual {
+		margin: -30px 0 0 0;
+
 
 
 
