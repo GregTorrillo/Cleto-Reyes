@@ -1194,8 +1194,58 @@ overflow: hidden;
 	/* css for manual slide navigation */
 	.navigation-manual {
 		margin: -30px 0 0 0;
+	}
+	/* -----------------GREEN FLAG TITLE--------------  */
+	.greenFlagTitle {
+		height: 100px;
+	}
+	/* ------------------GLOVES------------------------ */
+	.gloves {
+		height: 600px;
+	}
+	.cardGreen {
+		position: relative;
+		width: 320px;
+		height: 400px;
+		margin: 20px 20px;
+	}
+	.imgBx img {
+		max-width: 90%;
+	}
+	.cardGreen .imgBx h2 {
+		font-size: 30px;
+	}
+	/* -------------SHOWCASE-TYSON------------------------------ */
 
-
-
+	.showcase-2 {
+		height: 600px;
+	}
+	.showcase2-text {
+		padding: 120px 20px 0 20px;
+	}
+	.showcase-2 p {
+		font-size: 18px;
+		padding-right: 20px;
+		line-height: 20px;
+	}
+	.card2 {
+		height: 350px;
+		top: 90px;
+	}
+	/* ------------------WHITE FLAG------------------------  */
+	.whiteFlag {
+		height: 800px;
+	}
+	.box {
+		width: 300px;
+		height: 480px;
+		margin: 10px;
+	}
+	.box:before, .box:after {
+		left: 50px;
+	}
+	.product {
+		max-width: 250px;
+	}
 
 }
