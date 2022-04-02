@@ -883,8 +883,8 @@ overflow: hidden;
 	text-shadow: 2px 2px 2px black;
 }
 .footer-column1 img {
-	width: 50%;
-	margin: 20px 0;
+	width: 75%;
+	margin: 20px auto;
 }
 .footer-column2 ul {
 	margin: 30px 0;
@@ -991,6 +991,10 @@ overflow: hidden;
 }
 .footer-column2 li, .footer-column2 h5, .footer-column3 p {
 	font-size: 18px;
+}
+.footer-column1 img {
+	width: 100%;
+	margin: 20px auto;
 }
 }
 
@@ -1121,6 +1125,10 @@ overflow: hidden;
 	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
 		font-size: 16px;
 	}
+	.footer-column1 img {
+		width: 100%;
+		margin: 20px auto;
+	}
 }
 
 /* ------------------MEDIA QUERY-	LARGE TABLET LANDSCAPE---------------------- */
@@ -1247,5 +1255,51 @@ overflow: hidden;
 	.product {
 		max-width: 250px;
 	}
+	/* ----------------SHOWCASE-PACQUIAO--------------------- */
+	.showcase-3 {
+		height: 600px;
+	}
+	.showcase3-text {
+		padding: 100px 0 0 0;
+	}
+	.showcase-3 p {
+		font-size: 18px;
+		padding-right: 20px;
+		line-height: 20px;
+	}
+	.card3 {
+		height: 350px;
+		top: 100px;
+	}
+	/* ------------------RED FLAG------------------------  */
 
+	.redColumn2 {
+		padding: 75px 50px 0 50px;
+	}
+
+
+	/* ---------------------FOOTER-------------------- */
+	.showcase-4 {
+		height: 600px;
+	}
+	.footer-column1, .footer-column2, .footer-column3 {
+		padding: 100px 50px 0 100px;
+	  height: 400px;
+	}
+	.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+		font-size: 24px;
+	}
+	.footer-column2 ul {
+		margin: 15px 0;
+	}
+	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
+		font-size: 16px;
+	}
+	.footer-column1 img {
+		width: 100%;
+		margin: 20px auto;
+	}
+	.footer-column3 input {
+		width: 200px;
+	}
 }
