@@ -164,6 +164,9 @@ button:hover {
 	color: white;
 	border-bottom: 5px solid red;
 }
+.hamburger {
+	display: none;
+}
 .logo {
 	width: 12%;
 	padding-top: 100px;
@@ -936,6 +939,9 @@ overflow: hidden;
 	.navbar a {
 		padding: 0 10px;
 	}
+	.hamburger {
+		display: none;
+	}
 	.logo {
 		width: 15%;
 	}
@@ -1009,6 +1015,9 @@ overflow: hidden;
 	.navbar a {
 		padding: 0 10px;
 		font-size: 20px;
+	}
+	.hamburger {
+		display: none;
 	}
 	.logo {
 		width: 15%;
@@ -1146,10 +1155,14 @@ overflow: hidden;
 	.navbar a:hover {
 		border-bottom: 4px solid red;
 	}
+	.hamburger {
+		display: none;
+	}
 	.logo {
 		width: 15%;
 		padding-top: 50px;
 	}
+
 	/* -----------------socialLinks----------------  */
 	.socialLinks {
 	padding-right: 15px;
@@ -1161,6 +1174,7 @@ overflow: hidden;
 		width: 30px;
 		height: 30px;
 	}
+
 	/* -------------SHOWCASE ALI--------------------  */
 	.hero {
 		height: 600px;
@@ -1203,10 +1217,12 @@ overflow: hidden;
 	.navigation-manual {
 		margin: -30px 0 0 0;
 	}
+
 	/* -----------------GREEN FLAG TITLE--------------  */
 	.greenFlagTitle {
 		height: 100px;
 	}
+
 	/* ------------------GLOVES------------------------ */
 	.gloves {
 		height: 600px;
@@ -1223,8 +1239,8 @@ overflow: hidden;
 	.cardGreen .imgBx h2 {
 		font-size: 30px;
 	}
-	/* -------------SHOWCASE-TYSON------------------------------ */
 
+	/* -------------SHOWCASE-TYSON------------------------------ */
 	.showcase-2 {
 		height: 600px;
 	}
@@ -1240,6 +1256,7 @@ overflow: hidden;
 		height: 350px;
 		top: 90px;
 	}
+
 	/* ------------------WHITE FLAG------------------------  */
 	.whiteFlag {
 		height: 800px;
@@ -1255,6 +1272,7 @@ overflow: hidden;
 	.product {
 		max-width: 250px;
 	}
+
 	/* ----------------SHOWCASE-PACQUIAO--------------------- */
 	.showcase-3 {
 		height: 600px;
@@ -1271,12 +1289,12 @@ overflow: hidden;
 		height: 350px;
 		top: 100px;
 	}
+
 	/* ------------------RED FLAG------------------------  */
 
 	.redColumn2 {
 		padding: 75px 50px 0 50px;
 	}
-
 
 	/* ---------------------FOOTER-------------------- */
 	.showcase-4 {
@@ -1301,5 +1319,171 @@ overflow: hidden;
 	}
 	.footer-column3 input {
 		width: 200px;
+	}
+}
+
+/* ------------------MEDIA QUERY-	LARGE TABLET PORTRAIT---------------------- */
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	/* -------------NAVBAR-------------------  */
+	.navbar {
+		padding: 20px 20px;
+	}
+	nav {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		width: 8%;
+	}
+	.logo {
+		width: 25%;
+		padding-top: 75px;
+	}
+
+	/* -----------------socialLinks----------------  */
+	.socialLinks {
+		display: none;
+	}
+
+	/* -------------SHOWCASE ALI--------------------  */
+	.hero {
+		height: 650px;
+	}
+	.showcase-text {
+		padding: 0;
+	}
+	 h1 {
+		font-size: 44px;
+	}
+	.showcase p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card {
+		display: none;
+	}
+
+	/* ------------------GREEN FLAG------------------------  */
+	.greenFlag {
+		height: 650px;
+	}
+
+	/* -----------------GREEN FLAG TITLE--------------  */
+	.greenFlagTitle {
+		height: 100px;
+	}
+	/* ------------------GLOVES------------------------ */
+	.gloves {
+		height: 600px;
+	}
+	.cardGreen {
+		width: 320px;
+		height: 400px;
+		margin: 20px 15px;
+	}
+	.imgBx img {
+		max-width: 90%;
+	}
+	.cardGreen .imgBx h2 {
+		font-size: 30px;
+	}
+	.weight h3, .color h3 {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-right: 5px;
+	}
+
+	/* -------------SHOWCASE-TYSON------------------------------ */
+	.showcase-2 {
+		height: 600px;
+	}
+	.showcase2-text {
+		padding: 0;
+	}
+	.showcase-2 p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card2 {
+		display: none;
+	}
+
+	/* ------------------WHITE FLAG------------------------  */
+	.equipment {
+		height: 600px;
+	}
+	.box {
+		width: 225px;
+		height: 325px;
+		margin: 10px;
+	}
+	.box:before {
+		left: 30px;
+		font-size: 5em;
+	}
+	.box:after {
+		left: 30px;
+		font-size: 5em;
+	}
+	.name {
+		font-size: 30px;
+	}
+	.product {
+		max-width: 200px;
+	}
+
+	/* ----------------SHOWCASE-PACQUIAO--------------------- */
+	.showcase-3 {
+		height: 600px;
+	}
+	.showcase3-text {
+		padding: 0;
+	}
+	.showcase-3 p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card3 {
+		display: none;
+	}
+
+
+/* ------------------RED FLAG------------------------  */
+	.redColumn2 {
+		padding: 80px 30px 0 30px;
+	}
+
+
+	/* ---------------------FOOTER-------------------- */
+	.showcase-4 {
+		height: 600px;
+	}
+	.footer-column1, .footer-column2, .footer-column3 {
+		padding: 100px 50px 0 50px;
+		height: 400px;
+	}
+	.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+		font-size: 24px;
+	}
+	.footer-column2 ul {
+		margin: 10px 0;
+	}
+	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
+		font-size: 16px;
+	}
+	.footer-column1 img {
+		width: 100%;
+		margin: 10px auto;
+	}
+	.footer-column3 input {
+		width: 180px;
+	}
+	.socialLinksList li {
+		margin: 5px;
+	}
+	.socialLinksList li a {
+		width: 30px;
+		height: 30px;
 	}
 }
