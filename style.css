@@ -1486,4 +1486,249 @@ overflow: hidden;
 		width: 30px;
 		height: 30px;
 	}
-}
+	}
+
+/* ------------------MEDIA QUERY-	SMALL TABLET ---------------------- */
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	/* -------------NAVBAR-------------------  */
+	.navbar {
+		padding: 20px 20px;
+	}
+	nav {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		width: 8%;
+	}
+	.logo {
+		width: 30%;
+		padding-top: 75px;
+	}
+
+	/* -----------------socialLinks----------------  */
+	.socialLinks {
+		display: none;
+	}
+
+	/* -------------SHOWCASE ALI--------------------  */
+	.hero {
+		height: 650px;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 50px;
+	}
+	.showcase-text {
+		padding: 0;
+	}
+	 h1 {
+		font-size: 40px;
+	}
+	.showcase p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card {
+		display: none;
+	}
+	button {
+		height: 40px;
+		width: 150px;
+		font-size: 18px;
+	}
+
+	/* ------------------GREEN FLAG------------------------  */
+	.greenFlag {
+		height: 960px;
+	}
+
+	/* -----------------GREEN FLAG TITLE--------------  */
+	.greenFlagTitle {
+		height: 100px;
+	}
+	/* ------------------GLOVES------------------------ */
+	.gloves {
+		height: 860px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.cardGreen {
+		width: 250px;
+		height: 250px;
+		margin: 10px 15px;
+	}
+	.imgBx img {
+		max-width: 75%;
+	}
+	.cardGreen .imgBx h2 {
+		font-size: 26px;
+	}
+	.weight h3, .color h3 {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-right: 5px;
+	}
+	.weight, .color{
+		padding: 5px 20px;
+	}
+	.weight span {
+		width: 25px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.color span {
+		width: 15px;
+		height: 15px;
+	}
+	.contentGreen a {
+		padding: 10px 20px;
+	}
+
+	/* -------------SHOWCASE-TYSON------------------------------ */
+	.showcase-2 {
+		height: 600px;
+		background-position: center;
+	}
+	.showcase2-text {
+		padding: 0;
+	}
+	.showcase-2 p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card2 {
+		display: none;
+	}
+
+	/* ------------------WHITE FLAG------------------------  */
+	.whiteFlag {
+		height: 960px;
+	}
+	.whiteFlagTitle {
+		width: 100%;
+		height: 140px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.equipment {
+		height: 820px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.box {
+		width: 250px;
+		height: 250px;
+		margin: 10px;
+	}
+	.box:before, .box:after {
+		left: 50px;
+		font-size: 5em;
+	}
+	.name {
+		font-size: 30px;
+	}
+	.product {
+		max-width: 125px;
+	}
+
+	/* ----------------SHOWCASE-PACQUIAO--------------------- */
+	.showcase-3 {
+		height: 600px;
+		background-position: center;
+	}
+	.showcase3-text {
+		padding: 0;
+	}
+	.showcase-3 p {
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.card3 {
+		display: none;
+	}
+
+
+	/* ------------------RED FLAG------------------------  */
+	.redFlagTitle {
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.redFlagEvents {
+		height: 600px;
+	}
+	.redColumn1 {
+		height: 600px;
+		margin-top: 50px;
+	}
+	.redColumn2 {
+		height: 600px;
+		margin-top: 50px;
+		padding: 80px 30px 0 30px;
+	}
+	.redColumn2 p {
+		font-size: 20px;
+	}
+	.redBox {
+		width: 250px;
+		height: 450px;
+		margin: 20px;
+	}
+	.redFlagEvents li {
+		font-size: 30px;
+		padding: 10px 0;
+	}
+	.redColumn2 img {
+		width: 75%;
+	}
+	.hidden{
+		display: none;
+	}
+
+	/* ---------------------FOOTER-------------------- */
+	.showcase-4 {
+		height: 600px;
+	}
+	.footer-column1, .footer-column2, .footer-column3 {
+		padding: 100px 20px 0 20px;
+		height: 400px;
+	}
+	.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+		font-size: 20px;
+	}
+	.footer-column2 ul {
+		margin: 10px 0;
+	}
+	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
+		font-size: 14px;
+	}
+	.footer-column1 img {
+		width: 100%;
+		margin: 10px auto;
+	}
+	.footer-column2 h5{
+		margin-top: 10px;
+	}
+	.footer-column3 p {
+		margin-top: 10px;
+	}
+	.footer-column3 input {
+		width: 150px;
+	}
+	.socialLinksList li {
+		margin: 5px;
+	}
+	.socialLinksList li a {
+		width: 22px;
+		height: 22px;
+	}
+	}
