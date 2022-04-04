@@ -969,12 +969,12 @@ overflow: hidden;
 	}
 	/* -------------SHOWCASE-TYSON------------------------------ */
 	.card2 {
-		height: 475px;
+	height: 475px;
 	}
 	/* ------------------WHITE FLAG------------------------  */
 	.box {
-		width: 375px;
-		height: 469px;
+	width: 375px;
+	height: 469px;
 	}
 	/* ----------------SHOWCASE-PACQUIAO--------------------- */
 	.card3 {
@@ -1002,14 +1002,14 @@ overflow: hidden;
 	width: 100%;
 	margin: 20px auto;
 	}
-	}
+}
 
 	/* ------------------MEDIA QUERY-LAPTOP---------------------- */
 
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	  @media screen and (min-width: 1200px) and (max-width: 1400px) {
 
 	/* -------------NAVBAR-------------------  */
-	.navbar {
+	 .navbar {
 		padding: 0 30px;
 	}
 	.navbar a {
@@ -1026,7 +1026,7 @@ overflow: hidden;
 
 	/* -----------------socialLinks----------------  */
 	.socialLinks {
-	padding-right: 20px;
+		padding-right: 20px;
 	}
 
 	/* -------------SHOWCASE ALI--------------------  */
@@ -1035,7 +1035,7 @@ overflow: hidden;
 		height: 700px;
 	}
 	.showcase-text {
-		padding: 50px 20px 0 0;
+		padding: 0 20px 0 0;
 	}
 	 h1 {
 		font-size: 55px;
@@ -1047,6 +1047,7 @@ overflow: hidden;
 	}
 	.card {
 		height: 400px;
+		margin-top: -50px;
 	}
 	.slider {
 		height: 350px;
@@ -1054,10 +1055,6 @@ overflow: hidden;
 	.slides {
 		height: 350px;
 	}
-	.container {
-		margin-top: -50px;
-	}
-	/* css for manual slide navigation */
 	.navigation-manual {
 		margin: -30px 0 0 0;
 	}
@@ -1076,7 +1073,7 @@ overflow: hidden;
 		height: 700px;
 	}
 	.showcase2-text {
-		padding: 300px 20px 0 20px;
+		padding: 250px 20px 0 20px;
 	}
 	.showcase-2 p {
 		font-size: 18px;
@@ -1085,6 +1082,7 @@ overflow: hidden;
 	}
 	.card2 {
 		height: 400px;
+		margin-top: -50px;
 	}
 
 	/* ------------------WHITE FLAG------------------------  */
@@ -1103,23 +1101,25 @@ overflow: hidden;
 		background-position: center;
 	}
 	.showcase3-text {
-		padding: 300px 0 0 0;
+		padding: 200px 0 0 0;
 	}
 	.showcase-3 p {
 		font-size: 18px;
 		padding-right: 50px;
 		line-height: 20px;
 	}
-
 	.card3 {
 		height: 400px;
+		margin-top: -100px;
 	}
 
 	/* ------------------RED FLAG------------------------  */
 	.redColumn2 {
 		padding: 75px 100px 0 100px;
 	}
-
+	.redColumn2 img {
+		width: 75%;
+	}
 	/* ---------------------FOOTER-------------------- */
 	.footer-column1, .footer-column2, .footer-column3 {
 		padding: 100px 50px 0 100px;
@@ -1138,10 +1138,9 @@ overflow: hidden;
 		width: 100%;
 		margin: 20px auto;
 	}
-	}
+}
 
 	/* ------------------MEDIA QUERY-LARGE TABLET LANDSCAPE---------------------- */
-
 	@media screen and (min-width: 1000px) and (max-width: 1200px){
 	/* -------------NAVBAR-------------------  */
 	.navbar {
@@ -1295,6 +1294,9 @@ overflow: hidden;
 	.redColumn2 {
 		padding: 75px 50px 0 50px;
 	}
+	.redColumn2 img {
+		width: 75%;
+	}
 
 	/* ---------------------FOOTER-------------------- */
 	.showcase-4 {
@@ -1320,7 +1322,8 @@ overflow: hidden;
 	.footer-column3 input {
 		width: 200px;
 	}
-	}
+}
+
 
 	/* ------------------MEDIA QUERY-LARGE TABLET PORTRAIT---------------------- */
 
@@ -1349,6 +1352,12 @@ overflow: hidden;
 	/* -------------SHOWCASE ALI--------------------  */
 	.hero {
 		height: 650px;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 100px;
 	}
 	.showcase-text {
 		padding: 0;
@@ -1418,11 +1427,7 @@ overflow: hidden;
 		height: 325px;
 		margin: 10px;
 	}
-	.box:before {
-		left: 30px;
-		font-size: 5em;
-	}
-	.box:after {
+	.box:before, .box:after {
 		left: 30px;
 		font-size: 5em;
 	}
@@ -1452,6 +1457,9 @@ overflow: hidden;
 	/* ------------------RED FLAG------------------------  */
 	.redColumn2 {
 		padding: 80px 30px 0 30px;
+	}
+	.redColumn2 img {
+		width: 75%;
 	}
 
 
@@ -1486,9 +1494,9 @@ overflow: hidden;
 		width: 30px;
 		height: 30px;
 	}
-	}
+}
 
-	/* ------------------MEDIA QUERY-SMALL TABLET ---------------------- */
+	/* ------------------MEDIA QUERY-	SMALL TABLET ---------------------- */
 
 	@media screen and (min-width: 600px) and (max-width: 800px) {
 	/* -------------NAVBAR-------------------  */
@@ -1731,12 +1739,11 @@ overflow: hidden;
 		width: 22px;
 		height: 22px;
 	}
-	}
+}
 
-	
-	/* ------------------MEDIA QUERY-PHONE LANDSCAPE ---------------------- */
+	/* ------------------MEDIA QUERY-	PHONE LANDSCAPE ---------------------- */
 
-	@media screen and (min-width: 480px) and (max-width: 600px) {
+	@media screen and (min-width: 450px) and (max-width: 600px) {
 	/* -------------NAVBAR-------------------  */
 	.navbar {
 		padding: 20px 20px;
@@ -2003,4 +2010,280 @@ overflow: hidden;
 		width: 200px;
 		margin: 10px 0;
 	}
+}
+
+
+	/* ------------------MEDIA QUERY-PHONE PORTRAIT ---------------------- */
+
+	@media screen and (max-width: 450px) {
+	/* -------------NAVBAR-------------------  */
+	.navbar {
+		padding: 10px 10px;
 	}
+	nav {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		width: 12%;
+	}
+	.logo {
+		width: 30%;
+		padding-top: 20px;
+	}
+
+	/* -----------------socialLinks----------------  */
+	.socialLinks {
+		display: none;
+	}
+
+	/* -------------SHOWCASE ALI--------------------  */
+	.hero {
+		height: 650px;
+		background-position: center;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+	}
+	.showcase-text {
+		padding: 0;
+
+	}
+	 h1 {
+		font-size: 36px;
+	}
+	.showcase p {
+		font-size: 14px;
+		padding-right: 0;
+		line-height: 18px;
+	}
+	.card {
+		display: none;
+	}
+	button {
+		height: 40px;
+		width: 130px;
+		font-size: 16px;
+	}
+
+	/* ------------------GREEN FLAG------------------------  */
+	.greenFlag {
+		height: 960px;
+	}
+
+	/* -----------------GREEN FLAG TITLE--------------  */
+	.greenFlagTitle {
+		height: 100px;
+	}
+	/* ------------------GLOVES------------------------ */
+	.gloves {
+		height: 860px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.cardGreen {
+		width: 250px;
+		height: 250px;
+		margin: 10px 15px;
+	}
+	.imgBx img {
+		max-width: 75%;
+	}
+	.cardGreen .imgBx h2 {
+		font-size: 26px;
+	}
+	.weight h3, .color h3 {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-right: 5px;
+	}
+	.weight, .color{
+		padding: 5px 20px;
+	}
+	.weight span {
+		width: 25px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.color span {
+		width: 15px;
+		height: 15px;
+	}
+	.contentGreen a {
+		padding: 10px 20px;
+	}
+
+	/* -------------SHOWCASE-TYSON------------------------------ */
+	.showcase-2 {
+		height: 600px;
+		background-position: center;
+	}
+	.showcase2-text {
+		padding: 0;
+	}
+	.showcase-2 p {
+		font-size: 14px;
+		padding-right: 0;
+		line-height: 18px;
+	}
+	.card2 {
+		display: none;
+	}
+
+	/* ------------------WHITE FLAG------------------------  */
+	.whiteFlag {
+		height: 960px;
+	}
+	.whiteFlagTitle {
+		width: 100%;
+		height: 140px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.equipment {
+		height: 820px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.box {
+		width: 250px;
+		height: 250px;
+		margin: 10px;
+	}
+	.box:before, .box:after {
+		left: 50px;
+		font-size: 5em;
+	}
+	.name {
+		font-size: 30px;
+	}
+	.product {
+		max-width: 125px;
+	}
+
+	/* ----------------SHOWCASE-PACQUIAO--------------------- */
+	.showcase-3 {
+		height: 600px;
+		background-position: center;
+	}
+	.showcase3-text {
+		padding: 0;
+	}
+	.showcase-3 p {
+		font-size: 14px;
+		padding-right: 0;
+		line-height: 18px;
+	}
+	.card3 {
+		display: none;
+	}
+
+
+	/* ------------------RED FLAG------------------------  */
+
+	.redFlagTitle {
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.redFlagEvents {
+		height: 600px;
+	}
+	.redColumn1 {
+		height: 600px;
+		margin-top: 10px;
+	}
+	.redColumn2 {
+		height: 600px;
+		margin-top: 50px;
+		padding: 80px 30px 0 30px;
+	}
+	.redColumn2 p {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.redBox {
+		width: 200px;
+		height: 400px;
+		margin: 0;
+
+	}
+	.redFlagEvents li {
+		font-size: 24px;
+		padding: 10px 0;
+	}
+	.redColumn2 img {
+		width: 100%;
+	}
+	.hidden{
+		display: none;
+	}
+
+	/* ---------------------FOOTER-------------------- */
+	.showcase-4 {
+		height: 900px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+		background-position: center;
+	}
+	.footer-column1, .footer-column2, .footer-column3 {
+		width: 100%;
+		height: 200px;
+		padding: 0;
+		margin: 20px 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-column1 h4, .footer-column2 h4, .footer-column3 h4 {
+		font-size: 24px;
+		padding: 10px 0;
+	}
+	.footer-column2 ul {
+		margin: 10px 0;
+	}
+	.footer-column2 li, .footer-column2 h5, .footer-column3 p {
+		font-size: 16px;
+		padding: 5px 0;
+		margin: 0;
+	}
+	.footer-column1 img {
+		width: 25%;
+		margin: 5px auto;
+	}
+	.footer-column2 h5{
+		margin-top: 10px;
+	}
+	.footer-column3 p {
+		font-size: 16px;
+		margin: 5px 0;
+	}
+	.footer-column3 input {
+		width: 150px;
+	}
+	.socialLinksList li {
+		margin: 5px;
+	}
+	.socialLinksList li a {
+		width: 25px;
+		height: 25px;
+	}
+	.footer-column3 input {
+		height: 30px;
+		width: 200px;
+		margin: 10px 0;
+	}
+}
