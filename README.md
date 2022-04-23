@@ -1,4 +1,4 @@
-<h1 align="center">CLETO REYES | <a href="https://app.netlify.com/sites/cletoreyes/overview">Website</a></h1>
+<h1 align="center">CLETO REYES | <a href="https://cletoreyes.netlify.app/">Website</a></h1>
 <div align="center">
 	  <img src="https://github.com/GregTorrillo/Cleto-Reyes/blob/main/images/Cleto%20Reyes%20layout.jpg" width="25%" />
 </div>
