@@ -12,5 +12,4 @@ The user is shown an artistic interwoven home page of sections consisting of the
 	
 
 ## Techs used:
-<p align="left"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-html5.png" alt="html5" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-CSS3.png" alt="css3" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-JS.png" alt="javascript" width="80" height="80"/> <img src="
-https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-PS.png" alt="photoshop" width="80" height="80"/></p>
+<p align="left"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-html5.png" alt="html5" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-CSS3.png" alt="css3" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-JS.png" alt="javascript" width="80" height="80"/> <img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-PS.png" alt="photoshop" width="80" height="80"/></p>
