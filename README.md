@@ -3,7 +3,7 @@
 	  <img src="https://github.com/GregTorrillo/Cleto-Reyes/blob/main/images/Cleto%20Reyes%20layout.jpg" width="25%" />
 </div>
 <br>
-<p align="center"><a href="https://cletoreyes.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="125px" height="45px"></a></p
+<p align="center"><a href="https://cletoreyes.netlify.app/" target="_blank" rel="noreferrer"><img src="https://github.com/GregTorrillo/GregTorrillo/blob/main/assets/github-website-button.png" alt="Website" width="120px" height="45px"></a></p
 
 ## Motivation: 
 As a big boxing fan, I wanted to create an alternate website for legendary boxing brand, Cleto Reyes. 
